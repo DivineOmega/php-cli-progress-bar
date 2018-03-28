@@ -1,2 +1,2 @@
-# PHP CLI Progress Bar
+# ⏱ PHP CLI Progress Bar
 Progress bar for command line PHP scripts
