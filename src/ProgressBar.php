@@ -141,6 +141,8 @@ class ProgressBar
 
     public function complete()
     {
+        $this->setProgress($this->maxProgress)->display();
+        
         echo Constants::NEW_LINE_CHARACTER;
     }
 }
