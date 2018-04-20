@@ -1,6 +1,6 @@
 <?php
 
-use RapidWeb\CliProgressBar\ProgressBar;
+use DivineOmega\CliProgressBar\ProgressBar;
 
 require_once __DIR__.'/../vendor/autoload.php';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace RapidWeb\CliProgressBar;
+namespace DivineOmega\CliProgressBar;
 
 use Khill\Duration\Duration;
 

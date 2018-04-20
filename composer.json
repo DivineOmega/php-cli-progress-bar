@@ -1,5 +1,5 @@
 {
-    "name": "rapidwebltd/php-cli-progress-bar",
+    "name": "divineomega/php-cli-progress-bar",
     "description": "Progress bar for command line PHP scripts",
     "type": "library",
     "license": "LGPL-3.0-only",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RapidWeb\\CliProgressBar\\": "./src/"
+            "DivineOmega\\CliProgressBar\\": "./src/"
         }
     }
 }
