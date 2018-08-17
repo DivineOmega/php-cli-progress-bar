@@ -87,7 +87,7 @@ class ProgressBar
 
         $averageAdvancementTiming = array_sum($this->advancementTimings)/count($this->advancementTimings);
 
-        return $averageAdvancementTiming * ($this->maxProgress - $this->progress);
+        return round($averageAdvancementTiming * ($this->maxProgress - $this->progress));
     }
 
     private function getHumanReadableTimeRemaining()
