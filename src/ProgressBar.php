@@ -36,6 +36,8 @@ class ProgressBar
         }
 
         $this->maxProgress = $maxProgress;
+        $this->maxAdvancementTimings = $maxProgress * 0.1;
+
         return $this;
     }
 
